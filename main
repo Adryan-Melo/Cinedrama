@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine Dramas | Catálogo de Minisséries</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #0f172a;
+            color: #f1f5f9;
+        }
+
+        header {
+            background: linear-gradient(135deg, #020617, #020617cc), 
+                        url("banner.jpg") center/cover no-repeat;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .btns {
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 22px;
+            margin: 8px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .whatsapp { background-color: #25d366; }
+        .instagram { background-color: #e1306c; }
+        .facebook { background-color: #1877f2; }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 32px;
+        }
+
+        .about, .how {
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        .catalog {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #020617;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 15px rgba(0,0,0,0.4);
+        }
+
+        .card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            padding: 15px;
+            font-size: 18px;
+        }
+
+        footer {
+            background-color: #020617;
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 14px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Cine Dramas</h1>
+    <p>Catálogo exclusivo de minisséries e dramas envolventes, com histórias intensas, emocionantes e atualizadas regularmente.</p>
+
+    <div class="btns">
+        <a href="https://wa.me/5599999999999" class="btn whatsapp">WhatsApp</a>
+        <a href="https://instagram.com/seuinstagram" class="btn instagram">Instagram</a>
+        <a href="https://facebook.com/suapagina" class="btn facebook">Facebook</a>
+    </div>
+</header>
+
+<section>
+    <h2>Quem Somos</h2>
+    <div class="about">
+        A Cine Dramas é especializada na curadoria e divulgação de minisséries e dramas de sucesso.
+        Nosso objetivo é conectar o público às melhores histórias, com praticidade, rapidez e um
+        atendimento direto pelo WhatsApp.
+    </div>
+</section>
+
+<section>
+    <h2>Como Funciona</h2>
+    <div class="how">
+        <p>1. Você escolhe a minissérie ou drama no nosso catálogo.</p>
+        <p>2. Entra em contato pelo WhatsApp.</p>
+        <p>3. Recebe as orientações de acesso.</p>
+        <p>4. Assiste quando e onde quiser.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Catálogo</h2>
+    <div class="catalog">
+
+        <div class="card">
+            <img src="drama1.jpg" alt="Drama 1">
+            <h3>O Herdeiro Secreto</h3>
+        </div>
+
+        <div class="card">
+            <img src="drama2.jpg" alt="Drama 2">
+            <h3>Contrato de Amor</h3>
+        </div>
+
+        <div class="card">
+            <img src="drama3.jpg" alt="Drama 3">
+            <h3>A Noiva Abandonada</h3>
+        </div>
+
+        <div class="card">
+            <img src="drama4.jpg" alt="Drama 4">
+            <h3>O Retorno do Rei</h3>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2025 Cine Dramas • Todos os direitos reservados
+</footer>
+
+</body>
+</html>
